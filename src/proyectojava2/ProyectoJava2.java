@@ -16,6 +16,7 @@ public class ProyectoJava2 {
         Scanner teclado = new Scanner(System.in);
         
         int n1;
+        int nombre;
         System.out.println("Introduce un numero para ver si es par o impar: ");
         n1 = teclado.nextInt();
         
@@ -24,8 +25,9 @@ public class ProyectoJava2 {
         }else{
             System.out.println("Es impar");
         }
-       System.out.println("Escribe tu nombre" -escribe tu nombre-); 
-        
+System.out.println("Escribe tu nombre: ");
+        nombre = teclado.nextInt();
+        System.out.println(nombre);
     }
     
 }
