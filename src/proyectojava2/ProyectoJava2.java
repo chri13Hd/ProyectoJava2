@@ -1,4 +1,5 @@
 
+
 package proyectojava2;
 
 /**
@@ -23,7 +24,7 @@ public class ProyectoJava2 {
         }else{
             System.out.println("Es impar");
         }
-        
+       System.out.println("Escribe tu nombre" -escribe tu nombre-); 
         
     }
     
